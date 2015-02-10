@@ -1,0 +1,23 @@
+http://feeds.feedburner.com/UQDSAEvents
+
+Browser Key for calendar:
+AIzaSyDEf1_hO4d8aIoUW8Y_YychvWawiNfiyBE
+
+password: Cadmus100
+
+email: uqdsassociation@gmail.com
+
+google app name: uqdsawebsite
+
+appurl: uqdsawebsite.appspot.com
+
+information
+membership
+galleries
+partners
+our team
+contact us
+
+blockout holidays
+
+cmd appcfg.py --oauth2 update C:/Users/Matt/Documents/UQDSA
