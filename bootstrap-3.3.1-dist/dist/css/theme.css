@@ -1,0 +1,241 @@
+body {
+	-webkit-text-shadow: none;
+	text-shadow: none;
+	color: #333;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	overflow-y: scroll;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.panel-footer {
+	margin-top: 40px;
+	line-height: 5px;
+	border:none;
+	color:#CCC;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	z-index:2;
+}
+/* IE 6 */
+* html .panel-footer {
+	position:absolute;
+	top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+.navbar-brand, .navbar-nav>li>a {
+	text-shadow: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+	border-color: #000;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+	font-size: 16px;
+	vertical-align: middle;
+	height: 80px;
+	padding-top: 15px;
+}
+.navbar .navbar-collapse {
+	text-align: center;
+	vertical-align: middle;
+}
+.navbar, .navbar-header {
+	height: 80px;
+}
+.navbar-toggle {
+	margin-top: 25px;
+}
+.navbar-default {
+	background-image: -webkit-linear-gradient(top, #377ca8 0%, #2a6082 100%) !important;
+	background-image: -o-linear-gradient(top, #377ca8 0%, #2a6082 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#377ca8), to(#2a6082));
+	background-image: linear-gradient(to bottom, #377ca8 0, #2a6082 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#377ca8', endColorstr='#2a6082', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+	background-image: none;
+	filter: none;
+	background-repeat: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: transparent;
+}
+#bs-example-navbar-collapse-1 > ul > li.active {
+	font-weight: bold;
+	background: none
+}
+#bs-example-navbar-collapse-1 > ul > li> a {
+	background: none;
+	color: #fff;
+}
+#bs-example-navbar-collapse-1 > ul > li> a:hover {
+	background: none;
+	box-shadow: none;
+	color: #333;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: none;
+}
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+	max-height: 500px;
+	overflow-y: hidden;
+}
+.navbar-collapse.in {
+	overflow-y: hidden;
+	height: 320px;
+}
+body > div > div:nth-child(2), body > div > div:nth-child(3) {
+	padding-top: 20px;
+ padding-bottom::10px;
+}
+.fc-right {
+	padding-top: 20px;
+}
+#FB_Album_Frame *, .FB_Album_Frame * {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+#FB_Album_Frame, .FB_Album_Frame {
+	padding: 10px 0px 10px 0px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	position: relative;
+	background: none;
+	border: none;
+	-webkit-border-radius: none;
+	-moz-border-radius: none;
+	border-radius: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+.paginationMain .paginationControls.Floater {
+	margin: 0px auto 10px auto;
+	padding: 0px;
+	border: none;
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	border-bottom: 1px solid #DDDDDD;
+	z-index: 99;
+}
+.paginationControls .thumbnailStage {
+	color: #fff;
+}
+.paginationMain .paginationControls {
+	border-bottom: none;
+}
+#FB_Album_Infinite_More_Arrow_Left, .FB_Album_Infinite_More_Arrow_Left {
+	background: none;
+}
+#FB_Album_Infinite_More_Arrow_Right, .FB_Album_Infinite_More_Arrow_Right {
+	background: none;
+}
+#fb-album-header .seperator, .fb-album-header .seperator, #fb-album-footer .seperator, .fb-album-footer .seperator {
+	border-bottom: none;
+}
+#FB_Album_Infinite_More, .FB_Album_Infinite_More {
+	border-top: none;
+}
+body > div > div:nth-child(2), body > div > div:nth-child(3) {
+	padding-top: 0px;
+}
+.navbar {
+	border: none;
+	border-radius: 0px;
+}
+.Everyone {
+	background-color: #f83a22;
+	border-color: #f83a22;
+	color: #333;
+}
+.FirstYears {
+	background-color: #ffad46;
+	border-color: #ffad46;
+	color: #333;
+}
+.SecondYears {
+	background-color: #fbe983;
+	border-color: #fbe983;
+	color: #333;
+}
+.ThirdYears {
+	background-color: #7bd148;
+	border-color: #7bd148;
+	color: #333;
+}
+.FourthYears {
+	background-color: #4986e7;
+	border-color: #4986e7;
+	color: #333;
+}
+.FifthYears {
+	background-color: #a47ae2;
+	border-color: #a47ae2;
+	color: #333;
+}
+.UniHolidays {
+	background-color: #FCF;
+	border-color: #FCF;
+	color: #333;
+}
+.PublicHolidays {
+	background-color: #FCF;
+	border-color: #FCF;
+	color: #333;
+}
+.fc-unthemed .fc-today {
+	background-color: #CEE1EA;
+}
+ @media (min-width: 1200px) {
+.container {
+	width: 1000px;
+}
+}
+ @media (max-width: 992px) {
+.navbar-default .navbar-nav>li>a {
+	font-size: 16px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.text-right {
+	text-align: left;
+}
+}
+ @media (max-width: 870px) {
+.navbar-default .navbar-nav>li>a {
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+}
+ @media (max-width: 767px) {
+.navbar-collapse {
+	background-color: #fff;
+	position: relative;
+	z-index: 2;
+}
+#bs-example-navbar-collapse-1 > ul > li> a:hover {
+	color: #377ca8;
+}
+#bs-example-navbar-collapse-1 > ul > li> a {
+	color: #333;
+}
+}

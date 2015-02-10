@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<title>jQuery Facebook Gallery - Code Generator</title>
+
+<script type="text/javascript" src="JS/jquery.1.7.2.min.js"></script>
+
+<script>
+	$(document).ready(function($){
+		$("#Code_Frame").hide();
+		$("#Gallery_Code").click(function(event) {
+			var link = $(this);
+			var target = link.attr("target");
+			if($.trim(target).length > 0) {
+				window.open(link.attr("href"), target);
+			} else {
+				window.location = link.attr("href", "_parent");
+			}
+			event.preventDefault();
+		});
+		$("#Gallery_Code").click();
+	});
+</script>
+
+</head>
+
+<body>
+	<div id="Code_Frame">
+		<h1>jQuery Facebook Gallery - Code Generator</h1>
+		<a id="Gallery_Code" href="http://www.tekanewascripts.info/Code_Generator/TS_FB_Code_Generator.html" target="_parent">Please click here to load the code generator</a>
+	</div>
+</body>
+</html>
