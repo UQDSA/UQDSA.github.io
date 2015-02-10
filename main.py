@@ -9,7 +9,7 @@ from google.appengine.ext.webapp import template
 class MainHandler(webapp.RequestHandler):
   def get (self, q):
     if q is None:
-      q = 'Home.html'
+      q = 'index.html'
 
     path = os.path.join (os.path.dirname (__file__), q)
     self.response.headers ['Content-Type'] = 'text/html'
