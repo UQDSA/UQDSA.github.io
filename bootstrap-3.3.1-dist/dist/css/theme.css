@@ -201,6 +201,12 @@ body > div > div:nth-child(2), body > div > div:nth-child(3) {
 	border-color: #FCF;
 	color: #333;
 }
+.FacebookEvents{
+	background-color: #377ca8;
+	border-color: #377ca8;
+	color: #333;
+}
+}
 .fc-unthemed .fc-today {
 	background-color: #CEE1EA;
 }
