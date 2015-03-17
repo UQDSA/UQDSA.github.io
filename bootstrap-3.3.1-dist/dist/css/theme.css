@@ -96,16 +96,22 @@ body {
 	border-color: none;
 }
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
-	max-height: 500px;
+	max-height: 600px;
 	overflow-y: hidden;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
 }
 .navbar-collapse.in {
 	overflow-y: hidden;
-	height: 320px;
+	height: 350px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
 }
 body > div > div:nth-child(2), body > div > div:nth-child(3) {
 	padding-top: 20px;
- padding-bottom::10px;
+	padding-bottom::10px;
 }
 .fc-right {
 	padding-top: 20px;
