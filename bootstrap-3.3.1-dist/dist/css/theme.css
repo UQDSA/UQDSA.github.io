@@ -5,7 +5,7 @@ body {
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	overflow-y: scroll;
 	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-bottom: 100px;
 }
 .panel-footer {
 	margin-top: 40px;
@@ -201,11 +201,6 @@ body > div > div:nth-child(2), body > div > div:nth-child(3) {
 	border-color: #FCF;
 	color: #333;
 }
-.FacebookEvents{
-	background-color: #4dade2;
-	border-color: #4dade2;
-	color: #333;
-}
 .fc-unthemed .fc-today {
 	background-color: #CEE1EA;
 }
@@ -216,7 +211,7 @@ body > div > div:nth-child(2), body > div > div:nth-child(3) {
 }
  @media (max-width: 992px) {
 .navbar-default .navbar-nav>li>a {
-	font-size: 16px;
+	font-size: 14px;
 	padding-left: 7px;
 	padding-right: 7px;
 }
@@ -226,7 +221,7 @@ body > div > div:nth-child(2), body > div > div:nth-child(3) {
 }
  @media (max-width: 870px) {
 .navbar-default .navbar-nav>li>a {
-	font-size: 16px;
+	font-size: 14px;
 	padding-left: 5px;
 	padding-right: 5px;
 }
