@@ -10,6 +10,9 @@ body {
 .paddingdown {
 	margin-bottom: 30px;
 }
+.centralised {
+	text-align: centre;
+}
 .panel-footer {
 	margin-top: 40px;
 	line-height: 5px;
