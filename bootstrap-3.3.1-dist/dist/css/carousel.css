@@ -20,7 +20,7 @@
   position: absolute;
   margin: auto;
   top: 0;
-  bottom: 40%;
+  bottom: 0;
   left: 0;
   min-width: 100%;
   min-height: 500px;
@@ -91,10 +91,6 @@
   .featurette-heading {
     font-size: 50px;
   }
-  
-  .carousel-inner > .item > img {
-  bottom: 0%;
-}
 }
 
 @media (min-width: 1065px) {
@@ -104,12 +100,6 @@
   .carousel-caption p {
     font-size: 21px;
   }
-  .carousel-inner > .item > img {
-  bottom: 0%;
-}
-}
-
-@media (max-width: 768px) {
   .carousel-inner > .item > img {
   bottom: 0%;
 }
