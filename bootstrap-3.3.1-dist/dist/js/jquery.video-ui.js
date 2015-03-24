@@ -12,9 +12,9 @@
     $.fn.videoUI = function( options ) {  
 
         var settings = $.extend( {
-            'playMedia'  : true,
-            'progressMedia' : true,
-            'timerMedia': true,
+            'playMedia':true,
+            'progressMedia':true,
+            'timerMedia':true,
             'volumeMedia':5,
             'fullscreenMedia':true,
             'autoHide':true,
