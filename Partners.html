@@ -112,7 +112,7 @@
     </div>
     <div class="col-md-6 hidden-sm hidden-xs">
     	<div class="videoUiWrapper thumbnail">
-  		<video width="400" height="200" id="BOQ">
+  		<video width="100%" height="auto" id="BOQ">
     			<source src="BOQ_Grad_Testimonials_Master.mp4" type="video/mp4">
     			Your browser does not support the video tag.
   		</video>
@@ -160,14 +160,15 @@
 </div>
 
 <script type="text/javascript" >
-            $('#BOQ').videoUI({
-  'autoHide':true,
-  'volumeMedia': 5,
-  'playMedia':true,
-  'progressMedia':true,
-  'timerMedia':true,
-  'fullscreenMedia':true
-});
+        $('#BOQ').videoUI({
+	'playMedia'  : true,
+        'progressMedia' : true,
+        'timerMedia': true,
+        'volumeMedia':5,
+        'fullscreenMedia':true,
+        'autoHide':true,
+        'autoPlay':false
+	});
 </script>
 </body>
 </html>
