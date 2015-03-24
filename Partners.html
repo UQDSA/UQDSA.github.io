@@ -36,6 +36,10 @@
 <link rel="stylesheet" type="text/css" href="FacebookGallery/Plugins/PrettyPhoto/jquery.prettyPhoto.css" />
 <script type="text/javascript" src="FacebookGallery/Plugins/PrettyPhoto/jquery.prettyPhoto.js"></script>
 
+<!-- video -->
+<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+<script src="http://vjs.zencdn.net/4.12/video.js"></script>
+
 </head>
 <body>
 
@@ -106,9 +110,10 @@
     </div>
     <div class="col-md-6 hidden-sm hidden-xs">
     	<img src="BOQ.jpg" class="img-responsive pull-right" alt="BOQ Logo"/></a>
-    	<div class="embed-responsive embed-responsive-16by9">
-    		<iframe class="embed-responsive-item" src="BOQ.mp4"></iframe>
-	</div>
+    	<video id="BOQ" class="video-js vjs-default-skin" controls preload="auto" width="640" height="264" poster="BOQ.jpg" data-setup="{}">
+    		<source src="BOQ_Grad_Testimonials_Master.mp4" type='video/mp4'>
+    		<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+    	</video>
     </div>
   </div>
   
