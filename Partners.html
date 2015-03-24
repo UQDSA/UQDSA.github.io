@@ -29,8 +29,10 @@
 <!-- styles and javascript -->
 <link rel="stylesheet" href="bootstrap-3.3.1-dist/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="bootstrap-3.3.1-dist/dist/css/theme.css">
+<link href="bootstrap-3.3.1-dist/dist/css/video-default.css" rel="stylesheet">
 <script src="bootstrap-3.3.1-dist/dist/js/jquery-1.11.2.min.js"></script>
 <script src="bootstrap-3.3.1-dist/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrap-3.3.1-dist/dist/js/jquery.video-ui.js"></script>
 
 <!-- prettyPhoto style and javascript -->
 <link rel="stylesheet" type="text/css" href="FacebookGallery/Plugins/PrettyPhoto/jquery.prettyPhoto.css" />
@@ -109,10 +111,11 @@
       <p>&nbsp;&nbsp;<a href="tel:1300131141">1300 131 141</a>.</p>
     </div>
     <div class="col-md-6 hidden-sm hidden-xs">
-    	<div align="center" class="embed-responsive embed-responsive-16by9">
-	 	<video width="100%" height="auto" controls class="embed-responsive-item" poster="BOQ.jpg">
-        		<source src="BOQ_Grad_Testimonials_Master.mp4" type=video/mp4>
-    		</video>
+    	<div class="videoUiWrapper thumbnail">
+  		<video width="100%" height="auto" id="BOQ">
+    			<source src="BOQ_Grad_Testimonials_Master.mp4" type="video/mp4">
+    			Your browser does not support the video tag.
+  		</video>
 	</div>
     </div>
   </div>
@@ -156,5 +159,8 @@
         <p>ABN: 64 387 933 030</p>
 </div>
 
+<script type="text/javascript" >
+            $('#BOQ').videoUI();
+</script>
 </body>
 </html>
