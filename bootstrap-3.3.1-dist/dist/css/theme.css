@@ -7,6 +7,12 @@ body {
 	padding-top: 80px;
 	padding-bottom: 100px;
 }
+.video-js {
+	padding-top: 56.25%
+}
+.vjs-fullscreen {
+	padding-top: 0px
+}
 .paddingdown {
 	margin-bottom: 30px;
 }
